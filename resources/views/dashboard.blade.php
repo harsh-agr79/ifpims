@@ -20,7 +20,7 @@
             <div class="center">
                 <h6 style="font-weight: 600;">Warnings</h6>
             </div>
-            <div>
+            <div class="mp-card">
                 <table>
                     <thead>
                         <th>Type</th>
