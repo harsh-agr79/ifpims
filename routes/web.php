@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DisasterController;
+use App\Http\Controllers\PollutionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +16,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('dashboard');
 });
+
+Route::get("/pollution", [PollutionController::class, 'pollution']);
+Route::get("/disaster", [DisasterController::class, 'Disaster']);
