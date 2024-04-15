@@ -106,6 +106,8 @@
                     </li>
                     <li><a href="{{ url('/waterdata') }}" class=" active">Water Data<i class="material-icons material-symbols-outlined white-text">warning</i></a>
                     </li>
+                    <li><a href="{{ url('/airdata') }}" class=" active">Air Data<i class="material-icons material-symbols-outlined white-text">warning</i></a>
+                    </li>
                 </ul>
             </li>
         </ul>

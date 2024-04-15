@@ -10,8 +10,12 @@ class PollutionController extends Controller {
         return view( 'pollution' );
     }
 
-    public function csvadd() {
+    public function waterdata() {
    $result['data'] = DB::table('water_data')->paginate(50000);
    return view("watersample", $result);
     }
+    public function airdata() {
+        $result['data'] = DB::table('water_data')->paginate(50000);
+        return view("watersample", $result);
+         }
 }

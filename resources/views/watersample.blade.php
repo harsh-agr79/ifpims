@@ -1,6 +1,6 @@
 @extends('layout')
 @section('title')
-    <title>Disasters</title>
+    <title>Sample Data</title>
 @endsection
 @section('main')
     <div class="center">
