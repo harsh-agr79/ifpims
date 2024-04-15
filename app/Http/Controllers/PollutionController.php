@@ -16,6 +16,6 @@ class PollutionController extends Controller {
     }
     public function airdata() {
         $result['data'] = DB::table('air_data')->paginate(50000);
-        return view("watersample", $result);
+        return view("airsample", $result);
          }
 }
