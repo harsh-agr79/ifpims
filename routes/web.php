@@ -21,3 +21,5 @@ Route::get('/', function () {
 
 Route::get("/pollution", [PollutionController::class, 'pollution']);
 Route::get("/disaster", [DisasterController::class, 'Disaster']);
+
+Route::get("waterdata", [PollutionController::class, 'csvadd']);

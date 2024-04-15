@@ -104,6 +104,8 @@
                     </li>
                     <li><a href="{{ url('/disaster') }}" class=" active">Disasters<i class="material-icons material-symbols-outlined white-text">warning</i></a>
                     </li>
+                    <li><a href="{{ url('/waterdata') }}" class=" active">Water Data<i class="material-icons material-symbols-outlined white-text">warning</i></a>
+                    </li>
                 </ul>
             </li>
         </ul>
