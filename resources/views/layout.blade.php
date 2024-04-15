@@ -104,9 +104,9 @@
                     </li>
                     <li><a href="{{ url('/disaster') }}" class=" active">Disasters<i class="material-icons material-symbols-outlined white-text">warning</i></a>
                     </li>
-                    <li><a href="{{ url('/waterdata') }}" class=" active">Water Data<i class="material-icons material-symbols-outlined white-text">warning</i></a>
+                    <li><a href="{{ url('/waterdata') }}" class=" active">Water Data<i class="material-icons material-symbols-outlined white-text">waves</i></a>
                     </li>
-                    <li><a href="{{ url('/airdata') }}" class=" active">Air Data<i class="material-icons material-symbols-outlined white-text">warning</i></a>
+                    <li><a href="{{ url('/airdata') }}" class=" active">Air Data<i class="material-icons material-symbols-outlined white-text">air</i></a>
                     </li>
                 </ul>
             </li>
