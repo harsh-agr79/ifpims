@@ -19,8 +19,8 @@ Route::get('/', function () {
     return view('dashboard');
 });
 
-Route::get("/pollution", [PollutionController::class, 'pollution']);
-Route::get("/disaster", [DisasterController::class, 'Disaster']);
+Route::get("/front/pollution", [PollutionController::class, 'pollution']);
+Route::get("/front/disaster", [DisasterController::class, 'Disaster']);
 
 Route::get("waterdata", [PollutionController::class, 'waterdata']);
 Route::get("airdata", [PollutionController::class, 'airdata']);

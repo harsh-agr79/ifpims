@@ -100,9 +100,9 @@
                 <ul class="collapsible collapsible-accordion">
                     <li><a href="{{ url('/') }}" class=" active">Dashboard<i class="material-icons white-text">home</i></a>
                     </li>
-                    <li><a href="{{ url('/pollution') }}" class=" active valign-wrapper">Pollution<i class="material-icons"><img src="{{asset('bio.png')}}" style="height: 25px;" alt=""></i></a>
+                    <li><a href="{{ url('/front/pollution') }}" class=" active valign-wrapper">Pollution<i class="material-icons"><img src="{{asset('bio.png')}}" style="height: 25px;" alt=""></i></a>
                     </li>
-                    <li><a href="{{ url('/disaster') }}" class=" active">Disasters<i class="material-icons material-symbols-outlined white-text">warning</i></a>
+                    <li><a href="{{ url('/front/disaster') }}" class=" active">Disasters<i class="material-icons material-symbols-outlined white-text">warning</i></a>
                     </li>
                     <li><a href="{{ url('/waterdata') }}" class=" active">Water Data<i class="material-icons material-symbols-outlined white-text">waves</i></a>
                     </li>
