@@ -20,7 +20,6 @@
             <th>Longitude</th>
             <th>Image</th>
             <th>Environmental Readings</th>
-            <th>Image</th>
             <th>Analysis</th>
         </thead>
         <tbody>
