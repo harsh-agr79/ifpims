@@ -26,6 +26,6 @@ class DisasterController extends Controller
 
         Disaster::create($data);
 
-        return response()->json(['message' => 'Disaster data added successfully'], 201);
+        return response()->json(200);
     }
 }

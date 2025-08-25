@@ -26,6 +26,6 @@ class PollutionController extends Controller
 
         Pollution::create($data);
 
-        return response()->json(['message' => 'Pollution data added successfully'], 201);
+        return response()->json(200);
     }
 }
