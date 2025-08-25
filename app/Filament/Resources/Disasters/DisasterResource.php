@@ -20,6 +20,8 @@ class DisasterResource extends Resource
 
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedExclamationCircle;
 
+    protected static ?int $navigationSort = 2;
+
     protected static ?string $recordTitleAttribute = 'Disaster';
 
     public static function form(Schema $schema): Schema

@@ -20,6 +20,8 @@ class PollutionResource extends Resource
 
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedTrash;
 
+    protected static ?int $navigationSort = 1;
+
     protected static ?string $recordTitleAttribute = 'Pollution';
 
     public static function form(Schema $schema): Schema
