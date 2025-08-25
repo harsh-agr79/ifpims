@@ -22,6 +22,8 @@ class PollutionResource extends Resource
 
     protected static ?int $navigationSort = 1;
 
+    protected static ?string $navigationLabel = 'Pollution';
+
     protected static ?string $recordTitleAttribute = 'Pollution';
 
     public static function form(Schema $schema): Schema

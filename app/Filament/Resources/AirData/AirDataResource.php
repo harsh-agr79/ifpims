@@ -26,6 +26,8 @@ class AirDataResource extends Resource
 
     protected static ?string $recordTitleAttribute = 'Air Data';
 
+    protected static ?string $navigationLabel = 'Air Data';
+
     public static function form(Schema $schema): Schema
     {
         return AirDataForm::configure($schema);

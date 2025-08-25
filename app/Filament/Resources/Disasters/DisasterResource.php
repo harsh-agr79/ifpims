@@ -24,6 +24,8 @@ class DisasterResource extends Resource
 
     protected static ?string $recordTitleAttribute = 'Disaster';
 
+    protected static ?string $navigationLabel = 'Disaster';
+
     public static function form(Schema $schema): Schema
     {
         return DisasterForm::configure($schema);

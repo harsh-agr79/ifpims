@@ -22,6 +22,8 @@ class WaterDataResource extends Resource
 
     protected static ?int $navigationSort = 4;
 
+    protected static ?string $navigationLabel = 'Water Data';
+
     protected static ?string $recordTitleAttribute = 'Water Data';
 
     public static function form(Schema $schema): Schema
