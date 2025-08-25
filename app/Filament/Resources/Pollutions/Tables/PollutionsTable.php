@@ -25,8 +25,10 @@ class PollutionsTable
                     ->searchable(),
                 ImageColumn::make('image')->disk('public')->imageHeight(120),
                 TextColumn::make('env_reading')
+                    ->wrap()
                     ->searchable(),
                 TextColumn::make('analysis')
+                    ->wrap()
                     ->searchable(),
                 TextColumn::make('created_at')
                     ->dateTime()
