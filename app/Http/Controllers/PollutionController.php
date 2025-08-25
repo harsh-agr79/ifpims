@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class PollutionController extends Controller {
     public function pollution( Request $request ) {
-        $result[ 'data' ] = DB::table( 'pollution' )->get();
+        $result[ 'data' ] = DB::table( 'pollution' )->orderBy('id', 'desc')->get();
         return view( 'pollution' , $result);
     }
 
