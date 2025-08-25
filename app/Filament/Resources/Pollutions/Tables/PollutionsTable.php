@@ -23,7 +23,7 @@ class PollutionsTable
                     ->searchable(),
                 TextColumn::make('lattitude')
                     ->searchable(),
-                ImageColumn::make('image')->disk('public'),
+                ImageColumn::make('image')->disk('public')->imageHeight(100),
                 TextColumn::make('env_reading')
                     ->searchable(),
                 TextColumn::make('analysis')
