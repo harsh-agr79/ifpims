@@ -18,7 +18,7 @@ class PollutionResource extends Resource
 {
     protected static ?string $model = Pollution::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
+    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedTrash;
 
     protected static ?string $recordTitleAttribute = 'Pollution';
 

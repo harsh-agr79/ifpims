@@ -18,7 +18,7 @@ class DisasterResource extends Resource
 {
     protected static ?string $model = Disaster::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
+    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedExclamationCircle;
 
     protected static ?string $recordTitleAttribute = 'Disaster';
 
