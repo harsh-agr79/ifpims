@@ -14,6 +14,7 @@ class PollutionsTable
     public static function configure(Table $table): Table
     {
         return $table
+            ->poll('3s')
             ->defaultSort('id', 'desc')
             ->columns([
                 TextColumn::make('area')
