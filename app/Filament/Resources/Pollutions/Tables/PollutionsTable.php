@@ -17,8 +17,8 @@ class PollutionsTable
             ->poll('3s')
             ->defaultSort('id', 'desc')
             ->columns([
-                TextColumn::make('area')
-                    ->searchable(),
+                // TextColumn::make('area')
+                //     ->searchable(),
                 TextColumn::make('longitude')
                     ->searchable(),
                 TextColumn::make('lattitude')
